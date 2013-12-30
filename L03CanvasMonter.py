@@ -1,4 +1,3 @@
-from Tkconstants import NE
 import Tkinter
 
 top = Tkinter.Tk()

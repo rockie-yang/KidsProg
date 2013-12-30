@@ -1,25 +1,19 @@
-from Tkconstants import NE
+from Tkconstants import *
 import Tkinter
+from PIL import ImageTk
 
 top = Tkinter.Tk()
 
-canvas = Tkinter.Canvas(top, height=800, width=800, bg="white")
+frame = Tkinter.Frame(top, width=800, height=800)
+frame.pack()
+
+canvas = Tkinter.Canvas(frame, height=800, width=800)
+
+bg = ImageTk.PhotoImage(file='background.jpg')
+bgImage = canvas.create_image(0, 0, image=bg, anchor=NW)
 
 filename = Tkinter.PhotoImage(file="ball.gif")
 image = canvas.create_image(150, 150, anchor=NE, image=filename)
-
-
-fx0 = 100
-fy0 = 100
-fw = 80
-fh = 80
-arc = canvas.create_arc(fx0 - fw, fy0 - fh, fx0 + fw, fy0 + fh, start=0, extent=270, fill="red")
-
-ex0 = 100
-ey0 = 80
-ew = 30
-eh = 30
-oval = canvas.create_oval(ex0, ey0, ex0 + ew, ey0 + eh, fill="blue")
 
 
 canvas.pack()
