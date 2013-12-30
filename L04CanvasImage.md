@@ -1,4 +1,4 @@
-Lesson 3 Images
+Lesson 04 Images
 ====================
 
 Today's lessons is how to add images to the canvas. One of the image is used as background. Others are used for as foreground.

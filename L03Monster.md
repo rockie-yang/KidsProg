@@ -1,8 +1,9 @@
-Lesson 3 Draw Monster on a Canvas
+Lesson 03 Draw Monster on a Canvas
 ====================
 
 It's draw to a monster on a canvas by combining an arc and oval. The initial program just has an arc and and oval. But it's not in the correct position. So he need be adjust the coordinate to form a correct monster.
 
+In this lesson, the difficult part is explain the coordination system. The way I used to explain is using a grid note book. Draw the X axis and y axis. Explain the original point (0, 0). The way of one point denoted as (x, y). How the value extend for X and Y axis.
 
 
 ```python
@@ -35,10 +36,10 @@ top.focus()
 top.mainloop()
 ```
 
-In this lesson, the difficult part is explain the coordination system. The way I used to explain is using a grid note book. Draw the X axis and y axis. Explain the original point (0, 0). The way of one point denoted as (x, y). How the value extend for X and Y axis.
 
 * Create a new python file
 * Type in all the code
 * Run the code
 * Explain the coordination system.
 * Adjust the coordination to form a sound monster
+

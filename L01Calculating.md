@@ -1,4 +1,4 @@
-Lesson 1 Calculating
+Lesson 01 Calculating
 ====================
 
 My 10 years old son Bobben is very interested to making some games.I had been asked teaching him programming for a while. I thought it might not a bad idea give it a try after a long hesitate. Don't know how far we could go though.
