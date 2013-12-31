@@ -39,4 +39,4 @@ top.mainloop()
 * Type in all the code
 * Replace the example file names with the file names downloaded
 * Run the code
-* Explain the coordination system.
+* Explain the coordinate system.

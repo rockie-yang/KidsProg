@@ -1,3 +1,16 @@
+Lesson 06 Add Coordinate Label and Better Grid
+====================
+
+In previous lessons, the grids are all drew with dashed lines. Which makes difficult to tell which is which. For people with intense phobia will be tough to look at that grid.
+
+Today's lesson have two parts
+
+1.  For every 5 line, change from dash line to solid line. It is also use to explain if statement.
+1.  On one side of the line, add coordinate label. It is used to make easy to tell coordinate on the canvas. Other wise,   most likely need count from beginning to tell which point it is.
+
+
+
+```python
 import Tkinter
 
 top = Tkinter.Tk()
@@ -32,4 +45,9 @@ for y in ys:
 canvas.pack()
 top.focus()
 top.mainloop()
+```
+
+* Directly change files on Lesson 05
+* Type in the vertical part
+* Let him finish the horizontal part
 

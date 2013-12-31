@@ -1,22 +1,24 @@
 Lesson 05 Grid and Loop
 ====================
 
-In previous lessons, the coordination change is quite time costly. It needs change and run, change and run. It needs quite some round to place items into correct places. He should already realized that the need for some guide of the coordinate.
+In previous lessons, the coordinate change is quite time costly. It needs change and run, change and run. It needs quite some round to place items into correct places. He should already realized that the need for some guide of the coordinate.
 
-And in previous lessons, the coordination system has been explained quite few times. In this lesson, I'm try to more formalize it. I using following steps to clarify the coordination system.
-1. Draw X and Y axises
-2. Point the original point
-3. Review concept of (x, y)
-4. Let him give first and second horizontal line's coordination (x0, y0) - (x1, y1)
-5. Let him give first and second vertical line's coordination (x0, y0) - (x1, y1)
+And in previous lessons, the coordinate system has been explained quite few times. In this lesson, I'm try to more formalize it. I using following steps to clarify the coordinate system.
+
+1.  Draw X and Y axises
+1.  Point the original point
+1.  Review concept of (x, y)
+1.  Let him give first and second horizontal line's coordinate (x0, y0) - (x1, y1)
+1.  Let him give first and second vertical line's coordinate (x0, y0) - (x1, y1)
 
 He does not have those abstract concept. So explain clear what is a loop. I use following game to explain.
-1. Let him write done numbers 10, 20, 30, 40, 50, 60 on paper
-2. Cut those numbers
-3. Tell him every time I ask a new number, give me the smallest number
-4. Give me the next number(from 10 to 60), I draw a line
-5. I said give me the next number
-6. He said there is no numbers left, then I explain the loop is end
+
+1.  Let him write done numbers 10, 20, 30, 40, 50, 60 on paper
+1.  Cut those numbers
+1.  Tell him every time I ask a new number, give me the smallest number
+1.  Give me the next number(from 10 to 60), I draw a line
+1.  I said give me the next number
+1.  He said there is no numbers left, then I explain the loop is end
 
 
 

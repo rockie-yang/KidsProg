@@ -42,6 +42,7 @@ b.pack()
 top.mainloop()
 
 ```
+
 * Create a new python file
 * Type in the previous code
 * Save and Run the program
