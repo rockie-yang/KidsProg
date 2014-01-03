@@ -28,6 +28,8 @@ def drawGrid(canvas, fill="gray"):
 		else:
 			canvas.create_line(x0, y, x1, y, dash=(1, 3), fill=fill)
 
+def centerCoor(x0, y0, x1, y1):
+	return (x0 + x1) / 2, (y0 + y1) / 2
 
 def tkCoor(x0, y0, width, height):
 	"""Tkinter using top left and bottom right point as coordinate. It is fairly difficult use.
